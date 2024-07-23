@@ -1,0 +1,22 @@
+{
+  "name": "cf-cache-proxy",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Saihajpreet Singh <saihajpreet.singh@gmail.com> (https://saihaj.dev)",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.4.5",
+    "@cloudflare/workers-types": "^4.20240722.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.2",
+    "vitest": "1.5.0",
+    "wrangler": "^3.60.3"
+  },
+}
